@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disco Shop</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Bungee&family=Lobster+Two&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+    <div class="container">
+        <h1>Disco Shop</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Sobre a Loja</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </div>
+    </header>
+    <section id="about">
+        <div class="container">
+            <img class="store" src=".\images\loja-de-disco3.jpg" alt="interior de uma loja de discos">
+            <div>
+                <h2>Sobre nossa loja</h2>
+                <p>
+                Loja de discos mais atual do brasil! Aqui você encontra desde discos antigos até aquele lançamento fresquinho, do Rock nacional até Pop internacional. Na nossa loja física, localizada na Vila CSS, você tem todo o aconchego necessário para desfrutar de uma boa música e testar seu Vinil, além de nosso atendimento personalizado sempre à disposição. Se quiser vender sua coleção de discos ou discos sortidos entre em contato conosco em <a href="#contact"><strong>Fale conosco</strong></a>, assim que possivel respondemos.
+                </p>
+                <br/>
+                <h3>Destaque do mês</h3>
+                <ul class="disco-artist">
+                    <li><img src=".\images\billie.png" alt="Álbum da Billie Eilish - Happier than Ever"></li>
+                    <li><img src=".\images\billie2.png" alt="Álbum da Billie Eilish - When we all fall asleep"></li>
+                    <li><img src=".\images\taylor2.png" alt="Álbum da Taylor Swift - Red"></li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="container">
+            <h2>Contatos</h2>
+            <div class="contact-methods">
+                <div>
+                    <h3>Fale conosco!</h3>
+                    <form>
+                        <input type="text" id="nome" placeholder="Seu nome" required>
+                        <input type="email" id="email" placeholder="Seu email" required>
+                        <input type="tel" id="telefone" placeholder="Seu telefone (opcional)">
+                        <textarea id="mensagem" placeholder="Sua mensagem"></textarea>
+                        <button type="submit" id="enviar">Enviar</button>
+                    </form>
+                </div>
+                <div>
+                    <h3>Nos acompanhe</h3>
+                    <ul class="social-links">
+                        <li>
+                            <a href="#" title="Siga no Spotify">
+                                <img src=".\images\spotify.png" alt="Logo do spotify">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga no Instagram">
+                                <img src=".\images\instagram.png" alt="Logo Instagram">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" title="Siga no Youtube">
+                                <img src=".\images\youtube.png" alt="Logo do Youtube">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Localização</h3>
+                    <p>
+                        Rua JavaScrip n°123, Vila CSS - São Paulo - SP
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <p> 
+                &copy; Disco Shop - Todos os direitos reservados - 2023
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
